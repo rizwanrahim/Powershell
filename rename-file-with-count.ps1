@@ -1,7 +1,7 @@
-$Path = "C:\Users\Rizwa\Documents\takeout-20231118T173738Z-001\Photos"
+$Path = "C:\Users\Rizwa\Documents\VHD\To Be Numbered"
 
 $Files = Get-ChildItem -Path $Path -File
-$Count = 1
+$Count = 32221
 
 foreach ($File in $Files) {
     $Extension = $File.Extension
